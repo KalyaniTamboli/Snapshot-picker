@@ -3,6 +3,40 @@
 <head>
     <title>Snapshot Picker</title>
     <link rel="stylesheet" href="./css/search.css">
+    <script>
+           function search()
+   {
+    const input=document.getElementById("inputname").value;
+    if(input=="car")
+    {
+        showCar();   
+    }
+    else if(input=="bike")
+    {
+        showBike();
+    }
+    else if(input=="cycle")
+    {
+        showCycle();
+    }
+    else if(input=="bus")
+    {
+        showBus();
+    }
+    else if(input=="fruit")
+    {
+        showFruit();
+    }
+    else if(input=="flower")
+    {
+        showFlower();
+    }
+    else
+    {
+        showMess();
+    }
+   }
+    </script>
 </head>
 <body>
     <div>
