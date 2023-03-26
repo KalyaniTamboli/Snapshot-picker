@@ -1,0 +1,11 @@
+.search
+{
+   text-align: center;
+}
+.search input
+{
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
