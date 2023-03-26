@@ -9,3 +9,11 @@
     border-bottom: 2px solid black;
     outline: none;
 }
+.search button
+{
+    padding: 3px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+}
