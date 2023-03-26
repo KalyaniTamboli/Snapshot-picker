@@ -1,3 +1,4 @@
+
 .search
 {
    text-align: center;
@@ -50,4 +51,11 @@
     .url
         {
             text-align: center;
+        }
+        .img-container
+        {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
