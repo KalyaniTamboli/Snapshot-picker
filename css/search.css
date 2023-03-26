@@ -17,3 +17,17 @@
     background-color:blue;
     color: white;
 }
+.button-conatiner
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+.button-conatiner button
+        {
+            margin: 5px;
+            padding: 1px 10px;
+            background-color: transparent;
+            border-color: #6759ff;
+            border-radius: 3em;;
+        }
