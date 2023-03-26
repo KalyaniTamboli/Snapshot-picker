@@ -31,3 +31,10 @@
             border-color: #6759ff;
             border-radius: 3em;;
         }
+
+.img-first-row img { 
+    margin: 10px;
+    margin-left: 60px;
+    height: 70px;
+    border-radius: 5px;
+    }
