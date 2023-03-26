@@ -31,14 +31,23 @@
             border-color: #6759ff;
             border-radius: 3em;;
         }
-        .display_img
+
+.img-first-row img 
+  { 
+    margin: 10px;
+    margin-left: 60px;
+    height: 70px;
+    border-radius: 5px;
+    }
+
+  .display_img
         {
             display: block;
             margin: 5px auto;
             border-radius: 10px;
             box-shadow: 0 0 10px blue;
         }
-        .url
+    .url
         {
             text-align: center;
         }
