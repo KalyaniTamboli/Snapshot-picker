@@ -81,7 +81,8 @@
     resize: none;
     margin-top: 40px;
     text-align: center;
-    box-shadow: 0 0 3px rgb(31, 31, 34);
+    box-shadow: 0 0 5px rgb(27, 27, 219);
+   
     width: 800px;
     margin-left: 100px;
     background-color: #fff;
@@ -90,6 +91,8 @@
 
 .url:hover {
     color: blue;
+    box-shadow: 0 0 3px rgb(31, 31, 34);
+   
 }
 
 .img-container {
@@ -119,9 +122,17 @@ body{
     height: 70px;
     border-radius: 4px;
     width: auto;
-    box-shadow: 0 0 3px rgb(31, 31, 34);
+    box-shadow: 0 0 5px rgb(157, 157, 255);
     background-color: #fff;
+    border-color:rgb(34, 115, 221);
    
+}
+
+.copy:hover{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 0 5px rgb(0, 0, 209) double;
+    border: #fff;
 }
 
 .sub-div{
