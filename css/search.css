@@ -70,7 +70,7 @@
 
     display: block;
     margin: 10px auto;
-    width: 40%;
+    width: 44%;
     height: 70px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -81,15 +81,18 @@
     resize: none;
     margin-top: 40px;
     text-align: center;
-    box-shadow: 0 0 3px rgb(31, 31, 34);
-    width: 850px;
-    margin-left: 270px;
+    box-shadow: 0 0 5px rgb(27, 27, 219);
+   
+    width: 800px;
+    margin-left: 100px;
     background-color: #fff;
-
+ 
 }
 
 .url:hover {
     color: blue;
+    box-shadow: 0 0 3px rgb(31, 31, 34);
+   
 }
 
 .img-container {
@@ -113,6 +116,31 @@ p {
 body{
     background-color:lightgrey ;
 }
+
+
+.copy{
+    position: absolute;
+    height: 70px;
+    border-radius: 4px;
+    width: auto;
+    box-shadow: 0 0 5px rgb(157, 157, 255);
+    background-color: #fff;
+    border-color:rgb(34, 115, 221);
+   
+}
+
+.copy:hover{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 0 5px rgb(0, 0, 209) double;
+    border: #fff;
+}
+
+.sub-div{
+    position: relative;
+    margin-left: 250px;
+}
+
 @media screen and (max-width:600px){
     .url {
       width:100%;
@@ -167,3 +195,4 @@ body{
         background-color: #ffdab7;
      }
 }
+
