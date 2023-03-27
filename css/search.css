@@ -20,15 +20,17 @@
     color: white;
 }
 
-.search button:hover{
+.search button:hover
+{
     background-color:rgb(86, 86, 160);
 }
 .button-conatiner
-        {
+        
+  {
             display: flex;
             justify-content: center;
             margin-top: 10px;
-        }
+  }
 
     
 .button-conatiner button
@@ -73,12 +75,26 @@
         }
     .url
         {
+
+            display: block;
+           margin: 10px auto;
+           width: 40%;
+           height: 70px;
+           padding: 12px 20px;
+            box-sizing: border-box;
+           border: 2px solid #ccc;
+          border-radius: 4px;
+          background-color: #f8f8f8;
+          font-size: 10px;
+          resize: none;
+
             margin-top: 40px;
             text-align: center;
             box-shadow: 0 0 3px rgb(31, 31, 34);
             width: 850px;
             margin-left: 270px;
             background-color: #fff;
+
         }
 
         .url:hover{
@@ -92,9 +108,13 @@
             align-items: center;
            
         }
-
-        p
+   p
         {
-            font-size: 15px;
-            font-weight: bold;
+            display: block;
+            margin: 3px auto;
+            padding: 3px 20px;
+            border-radius: 5px;
+            background-color:blue;
+            color: white;
+            margin-bottom: 3px;
         }
