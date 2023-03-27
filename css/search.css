@@ -113,3 +113,57 @@ p {
 body{
     background-color:lightgrey ;
 }
+@media screen and (max-width:600px){
+    .url {
+      width:100%;
+      height: 10vh;
+      top:auto;
+      bottom:auto;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:rgb(146, 145, 146);
+      margin-left:30px;
+      position:relative;
+    }
+    body{
+       background-color: #d7d7d7;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+    .url {
+        width:100%;
+        height: 10vh;
+        top:auto;
+        bottom:auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#b0aa8e;
+        margin-left:30px;
+        position:relative;
+      }
+      
+      body{
+        background-color: #d7d0af;
+     }
+}
+@media screen and (max-width:1500px) and (min-width:900px){
+    .url {
+        width:100%;
+        height: 10vh;
+        top:auto;
+        bottom:auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#d9b99c;
+        margin-left:30px;
+        position:relative;
+      }
+      
+      body{
+        background-color: #ffdab7;
+     }
+}
