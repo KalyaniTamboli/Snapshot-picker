@@ -1,120 +1,115 @@
-
-.search
-{
-   text-align: center;
+.search {
+    text-align: center;
 }
-.search input
-{
+
+.search input {
     font-size: 20px;
     border: none;
     border-bottom: 2px solid black;
     outline: none;
 }
 
-.search button
-{
+.search button {
     padding: 3px 10px;
     margin-left: 10px;
     border-radius: 5px;
-    background-color:blue;
+    background-color: blue;
     color: white;
 }
 
-.search button:hover
-{
-    background-color:rgb(86, 86, 160);
+.search button:hover {
+    background-color: rgb(86, 86, 160);
 }
-.button-conatiner
-        
-  {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-  }
 
-    
-.button-conatiner button
-        {
-           font-size: 16px;
-            margin: 10px;
-            padding: 1px 10px;
-            background-color: transparent;
-            border-color: #4f43d3;
-            border-radius: 3em;
-            height: 30px;
-            width: 80px;
-            background-color: #fff;
-            
-        }
+.button-conatiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
-        .button-conatiner button:hover{
-            background-color: blue;
-            color: #fff;
-        }
 
-.img-first-row img 
-  { 
+.button-conatiner button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 1px 10px;
+    background-color: transparent;
+    border-color: #4f43d3;
+    border-radius: 3em;
+    height: 30px;
+    width: 80px;
+    background-color: #fff;
+
+}
+
+.button-conatiner button:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.img-first-row img {
     margin: 10px;
     margin-left: 60px;
     height: 70px;
     border-radius: 5px;
-    }
+}
 
-  .display_img
-        {
-            display: block;
-            margin: 5px auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px blue;
-            margin-top: 30px;
-        }
+.display_img {
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue;
+    margin-top: 30px;
+}
 
-        .display_img:hover{
-            box-shadow: 0 0 20px rgb(0, 0, 26);
-           
-        }
-    .url
-        {
+.display_img:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 26);
 
-            display: block;
-           margin: 10px auto;
-           width: 40%;
-           height: 70px;
-           padding: 12px 20px;
-            box-sizing: border-box;
-           border: 2px solid #ccc;
-          border-radius: 4px;
-          background-color: #f8f8f8;
-          font-size: 10px;
-          resize: none;
+}
 
-            margin-top: 40px;
-            text-align: center;
-            box-shadow: 0 0 3px rgb(31, 31, 34);
-            width: 850px;
-            margin-left: 270px;
-            background-color: #fff;
+.url {
 
-        }
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    height: 70px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 10px;
+    resize: none;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 3px rgb(31, 31, 34);
+    width: 850px;
+    margin-left: 270px;
+    background-color: #fff;
 
-        .url:hover{
-            color: blue;
-        }
-        .img-container
-        {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-           
-        }
-   p
-        {
-            display: block;
-            margin: 3px auto;
-            padding: 3px 20px;
-            border-radius: 5px;
-            background-color:blue;
-            color: white;
-            margin-bottom: 3px;
-        }
+}
+
+.url:hover {
+    color: blue;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p {
+    display: block;
+    margin: 3px auto;
+    padding: 3px 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 3px;
+}
+
+body{
+    background-color:lightgrey ;
+}
