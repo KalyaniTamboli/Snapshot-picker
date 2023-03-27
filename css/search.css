@@ -1,6 +1,4 @@
-body{
-    margin-top: 30px;
-}
+
 .search
 {
    text-align: center;
@@ -12,6 +10,7 @@ body{
     border-bottom: 2px solid black;
     outline: none;
 }
+
 .search button
 {
     padding: 3px 10px;
@@ -30,13 +29,25 @@ body{
             justify-content: center;
             margin-top: 10px;
         }
+
+    
 .button-conatiner button
         {
-            margin: 5px;
+           font-size: 16px;
+            margin: 10px;
             padding: 1px 10px;
             background-color: transparent;
-            border-color: #6759ff;
-            border-radius: 3em;;
+            border-color: #4f43d3;
+            border-radius: 3em;
+            height: 30px;
+            width: 80px;
+            background-color: #fff;
+            
+        }
+
+        .button-conatiner button:hover{
+            background-color: blue;
+            color: #fff;
         }
 
 .img-first-row img 
@@ -62,7 +73,12 @@ body{
         }
     .url
         {
+            margin-top: 40px;
             text-align: center;
+            box-shadow: 0 0 3px rgb(31, 31, 34);
+            width: 850px;
+            margin-left: 270px;
+            background-color: #fff;
         }
 
         .url:hover{
@@ -77,8 +93,6 @@ body{
            
         }
 
-    
-      
         p
         {
             font-size: 15px;
